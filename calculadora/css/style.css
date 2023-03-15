@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.form{
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 252, 248);
+}
+
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+div.inputGroup{
+    margin-bottom: 10px;
+}
+
+input{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+    padding: 5px;
+    width: 100px;
+}
+
+input[type="submit"]{
+    background-color: rgb(0, 167, 245);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: white;
+    margin: 0px 2px;
+    text-transform: uppercase;
+}
