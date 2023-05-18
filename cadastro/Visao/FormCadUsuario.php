@@ -13,11 +13,11 @@
     <div class="col-md-4 mb-3">
         <hr>
     </div>
-	
+	<button onclick="window.print()">imprimir</button>
     <div class="col-md-4 mb-3">
         <form method="post" action="../Controle/ControleUsuario.php?ACAO=cadastrarUsuario">
             <br>
-            Nome:<input class="form-control" type="text" name="nome" maxlength="40" placeholder="Digite seu nome" />
+            Nome:<input class="form-control" type="text" name="nome" maxlength="40" placeholder="Digite seu nome"/>
             <br>
             <br>Email:<input class="form-control" type="email" id="email" name="email" maxlength="40" placeholder="Digite seu email" />
             <br>
